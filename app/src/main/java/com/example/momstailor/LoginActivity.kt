@@ -20,12 +20,12 @@ class LoginActivity : ComponentActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
 
         next = findViewById(R.id.continue_btn)
 
         next.setOnClickListener {
-            var intent:Intent = Intent(baseContext,MainActivity::class.java)
+            var intent = Intent(baseContext,MainActivity::class.java)
             startActivity(intent)
         }
 
