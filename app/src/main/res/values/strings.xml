@@ -3,5 +3,6 @@
     <string name="send_message">send now</string>
     <string name="receive_message">receive now</string>
     <string name="delete_message">delete now</string>
+    <string name="title_activity_login">LoginActivity</string>
 
 </resources>
