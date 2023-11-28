@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">moms tailor</string>
+    <string name="send_message">send now</string>
+    <string name="receive_message">receive now</string>
+    <string name="delete_message">delete now</string>
+
+</resources>
