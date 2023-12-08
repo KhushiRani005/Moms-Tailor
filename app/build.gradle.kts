@@ -3,6 +3,8 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
+// 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
+
 android {
     namespace = "com.example.momstailor"
     compileSdk = 34
@@ -72,4 +74,5 @@ dependencies {
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("com.airbnb.android:lottie:6.2.0")
 }

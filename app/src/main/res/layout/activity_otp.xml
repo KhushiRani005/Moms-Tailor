@@ -6,6 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".OtpActivity">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/otpraw"/>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10sp"-->
+<!--            android:background="@drawable/otp_round"-->
+<!--            android:hint="*"-->
+<!--            android:padding="20sp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white" />-->
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10sp"-->
+<!--            android:background="@drawable/otp_round"-->
+<!--            android:hint="*"-->
+<!--            android:padding="20sp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white" />-->
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10sp"-->
+<!--            android:background="@drawable/otp_round"-->
+<!--            android:hint="*"-->
+<!--            android:padding="20sp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white" />-->
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="10sp"-->
+<!--            android:background="@drawable/otp_round"-->
+<!--            android:hint="*"-->
+<!--            android:padding="20sp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/white" />-->
+
+
+<!--    </LinearLayout>-->
 
 
 
