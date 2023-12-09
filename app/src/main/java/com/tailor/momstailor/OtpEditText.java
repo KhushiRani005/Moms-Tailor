@@ -13,7 +13,7 @@ import androidx.appcompat.widget.AppCompatEditText;
 
 public class OtpEditText extends AppCompatEditText {
     private float mSpace = 24; //24 dp by default, space between the lines
-    private float mNumChars = 4;
+    private float mNumChars = 6;
     private float mLineSpacing = 8; //8dp by default, height of the text from our lines
     private float mLineStroke = 2;
     private Paint mLinesPaint;
@@ -42,7 +42,7 @@ public class OtpEditText extends AppCompatEditText {
         setBackgroundResource(0);
         mSpace = multi * mSpace; //convert to pixels for our density
         mLineSpacing = multi * mLineSpacing; //convert to pixels for our density
-        int mMaxLength = 4;
+        int mMaxLength = 6;
         mNumChars = mMaxLength;
 
         super.setOnClickListener(new OnClickListener() {
