@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 
+
 class OtpActivity : ComponentActivity() {
     private lateinit var otp:OtpEditText
     private lateinit var submit:Button

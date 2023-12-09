@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/white">
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/login" />
 
     <TextView
@@ -25,29 +25,47 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         android:text="Please confirm your country code and\nenter your mobile number"
-        android:textSize="15dp"
-        android:textColor="@color/black"/>
+        android:textSize="15dp" />
 
-
-    <EditText
-        android:id="@+id/phone_number_edit"
-        android:layout_width="250dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginVertical="20dp"
-        android:background="@drawable/round"
-        android:hint="Mobile Number"
-        android:padding="10dp"
-        android:textColor="@color/design_default_color_error"/>
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/round"
+            android:text="+91"
+            android:enabled="false"
+            android:padding="10dp"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/phone_number_edit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/round"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColorHint="@android:color/darker_gray" />
+
+    </LinearLayout>
+
 
 
     <Button
         android:id="@+id/continue_btn"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_margin="15dp"
+        android:layout_margin="20dp"
         android:layout_marginHorizontal="15dp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/blueish"
         android:text="continue"
         android:textColor="@color/white"
         android:textSize="18dp" />
@@ -57,6 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="error"
+        android:visibility="gone"
         />
 
 
