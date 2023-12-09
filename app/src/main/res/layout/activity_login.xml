@@ -10,7 +10,6 @@
         android:layout_height="350dp"
         android:src="@drawable/login" />
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,15 +30,15 @@
 
 
     <EditText
+        android:id="@+id/phone_number_edit"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         android:layout_marginVertical="20dp"
         android:background="@drawable/round"
         android:hint="Mobile Number"
-        android:inputType="phone"
         android:padding="10dp"
-        colour android:textColor="@color/design_default_color_error"/>
+        android:textColor="@color/design_default_color_error"/>
 
 
     <Button
@@ -52,6 +51,13 @@
         android:text="continue"
         android:textColor="@color/black"
         android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="error"
+        />
 
 
 </LinearLayout>

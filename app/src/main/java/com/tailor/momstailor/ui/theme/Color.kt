@@ -1,4 +1,4 @@
-package com.example.momstailor.ui.theme
+package com.tailor.momstailor.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
