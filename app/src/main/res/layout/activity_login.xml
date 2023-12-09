@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/pink">
+    android:background="@color/white">
 
     <ImageView
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@
         android:layout_marginHorizontal="15dp"
         android:backgroundTint="@color/teal_200"
         android:text="continue"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
