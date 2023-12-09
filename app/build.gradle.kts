@@ -6,11 +6,11 @@ plugins {
 // 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
 
 android {
-    namespace = "com.example.momstailor"
+    namespace = "com.tailor.momstailor"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.momstailor"
+        applicationId = "com.tailor.momstailor"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.momstailor
+package com.tailor.momstailor
 
 import android.annotation.SuppressLint
 import android.os.Bundle

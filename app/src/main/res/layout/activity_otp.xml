@@ -15,7 +15,7 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/otp" />
 
-    <com.example.momstailor.OtpEditText
+    <com.tailor.momstailor.OtpEditText
         android:id="@+id/otp_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

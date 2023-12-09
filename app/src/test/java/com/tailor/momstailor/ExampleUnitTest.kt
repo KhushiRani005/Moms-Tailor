@@ -1,4 +1,4 @@
-package com.example.momstailor
+package com.tailor.momstailor
 
 import org.junit.Test
 
