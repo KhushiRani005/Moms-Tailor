@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "803476294231",
+    "firebase_url": "https://mom-tailor-default-rtdb.firebaseio.com",
+    "project_id": "mom-tailor",
+    "storage_bucket": "mom-tailor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803476294231:android:46ebe8975ef0c119b6f112",
+        "android_client_info": {
+          "package_name": "com.momtailoradminapp.momtailor_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803476294231-1mpmemtcevmpk5natqleq5nrmfql8e4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momtailoradminapp.momtailor_admin",
+            "certificate_hash": "08b8340aed58971470662d75b71d5951ddb25318"
+          }
+        },
+        {
+          "client_id": "803476294231-9evln24bcc6l6e1canujv2r7rseqdkt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE9AtdG9S8qAXZ0TiXXG0X3yyHrxEeUHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803476294231-9evln24bcc6l6e1canujv2r7rseqdkt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803476294231:android:6fc596b789ff7372b6f112",
+        "android_client_info": {
+          "package_name": "com.momtailorapp.momtailor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803476294231-9evln24bcc6l6e1canujv2r7rseqdkt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE9AtdG9S8qAXZ0TiXXG0X3yyHrxEeUHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803476294231-9evln24bcc6l6e1canujv2r7rseqdkt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803476294231:android:58d5d2f539d72439b6f112",
+        "android_client_info": {
+          "package_name": "com.tailor.momstailor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803476294231-9evln24bcc6l6e1canujv2r7rseqdkt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE9AtdG9S8qAXZ0TiXXG0X3yyHrxEeUHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803476294231-9evln24bcc6l6e1canujv2r7rseqdkt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

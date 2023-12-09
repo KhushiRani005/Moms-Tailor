@@ -20,10 +20,6 @@ class LoginActivity : ComponentActivity() {
             startActivity(intent)
         }
 
-
-
-
-
     }
 }
 

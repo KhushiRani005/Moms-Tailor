@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 // 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
@@ -77,5 +78,6 @@ dependencies {
     implementation ("com.airbnb.android:lottie:6.2.0")
     implementation("com.github.mukeshsolanki.android-otpview-pinview:otpview-compose:3.1.0")
     implementation("com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0")
-
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }
