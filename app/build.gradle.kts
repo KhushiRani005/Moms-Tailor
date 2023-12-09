@@ -75,4 +75,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation ("com.airbnb.android:lottie:6.2.0")
+    implementation("com.github.mukeshsolanki.android-otpview-pinview:otpview-compose:3.1.0")
+    implementation("com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0")
+
 }

@@ -7,63 +7,40 @@
     tools:context=".OtpActivity">
 
     <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotti_otp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="20sp"
+        app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/otpraw"/>
+        app:lottie_rawRes="@raw/otp" />
+
+    <com.example.momstailor.OtpEditText
+        android:id="@+id/otp_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lotti_otp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="72dp"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="4"
+        android:focusable="true"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
 
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="10dp"-->
-<!--        android:gravity="center"-->
-<!--        android:orientation="horizontal">-->
-
-<!--        <EditText-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginHorizontal="10sp"-->
-<!--            android:background="@drawable/otp_round"-->
-<!--            android:hint="*"-->
-<!--            android:padding="20sp"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textColorHint="@color/white" />-->
-
-<!--        <EditText-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginHorizontal="10sp"-->
-<!--            android:background="@drawable/otp_round"-->
-<!--            android:hint="*"-->
-<!--            android:padding="20sp"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textColorHint="@color/white" />-->
-
-<!--        <EditText-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginHorizontal="10sp"-->
-<!--            android:background="@drawable/otp_round"-->
-<!--            android:hint="*"-->
-<!--            android:padding="20sp"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textColorHint="@color/white" />-->
-
-<!--        <EditText-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginHorizontal="10sp"-->
-<!--            android:background="@drawable/otp_round"-->
-<!--            android:hint="*"-->
-<!--            android:padding="20sp"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textColorHint="@color/white" />-->
-
-
-<!--    </LinearLayout>-->
-
-
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp_edit_text"
+        android:layout_marginHorizontal="100sp"
+        android:layout_marginTop="50sp"
+        android:background="@color/purple_200"
+        android:text="submit" />
 
 
 </RelativeLayout>
