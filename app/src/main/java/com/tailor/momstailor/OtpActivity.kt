@@ -21,8 +21,5 @@ class OtpActivity : ComponentActivity() {
             Toast.makeText(baseContext,otp.text,Toast.LENGTH_SHORT).show()
         }
 
-
-
-
     }
 }
