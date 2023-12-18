@@ -60,24 +60,27 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="105dp"
-        android:layout_height="64dp"
+        android:layout_width="102dp"
+        android:layout_height="79dp"
         android:layout_above="@+id/imageButton4"
         android:layout_alignParentEnd="true"
-        android:layout_margin="200px"
-        android:layout_marginEnd="297dp"
-        android:layout_marginBottom="134dp"
+        android:layout_marginStart="200px"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="200px"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="200px"
+        android:layout_marginBottom="81dp"
         android:onClick="send_now"
         android:text="@string/send_message" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="108dp"
-        android:layout_height="65dp"
+        android:layout_width="109dp"
+        android:layout_height="78dp"
         android:layout_above="@+id/imageButton4"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="134dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="78dp"
         android:text="@string/receive_message" />
 
     <EditText
@@ -90,20 +93,20 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="137dp"
         android:ems="10"
+        android:textStyle="bold"
         android:singleLine="true"
         android:textColor="#9C27B0"
         android:visibility="visible"
-        android:text="Aur Meh Hun Khushi Rani" />
+        android:text="your profile info" />
 
     <Button
-        android:layout_width="111dp"
-        android:layout_height="66dp"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="174dp"
-        android:layout_marginBottom="131dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="496dp"
         android:text="@string/delete_message" />
-
-
 
 
 </RelativeLayout>
