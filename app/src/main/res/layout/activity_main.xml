@@ -1,112 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="56dp"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="118dp"
-        android:layout_height="91dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="284dp"
-        android:layout_marginBottom="6dp"
-        android:src="@android:drawable/ic_dialog_dialer" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="124dp"
-        android:layout_height="84dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="146dp"
-        android:layout_marginBottom="11dp"
-        android:src="@android:drawable/stat_notify_missed_call" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="117dp"
-        android:layout_height="83dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="10dp"
-        android:src="@android:drawable/ic_menu_camera" />
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" />
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="181dp"
-        android:layout_height="170dp"
-        android:layout_above="@+id/editTextNumberPassword"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="118dp"
-        android:layout_marginBottom="24dp"
-        tools:src="@tools:sample/avatars" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="102dp"
-        android:layout_height="79dp"
-        android:layout_above="@+id/imageButton4"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="200px"
-        android:layout_marginLeft="200px"
-        android:layout_marginTop="200px"
-        android:layout_marginEnd="19dp"
-        android:layout_marginRight="200px"
-        android:layout_marginBottom="81dp"
-        android:onClick="send_now"
-        android:text="@string/send_message" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="109dp"
-        android:layout_height="78dp"
-        android:layout_above="@+id/imageButton4"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="157dp"
-        android:layout_marginBottom="78dp"
-        android:text="@string/receive_message" />
-
-    <EditText
-        android:id="@+id/editTextNumberPassword"
-        style="@android:style/Widget.AutoCompleteTextView"
-        android:layout_width="310dp"
-        android:layout_height="79dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="137dp"
-        android:ems="10"
-        android:textStyle="bold"
-        android:singleLine="true"
-        android:textColor="#9C27B0"
-        android:visibility="visible"
-        android:text="your profile info" />
-
-    <Button
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="71dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="300dp"
-        android:layout_marginBottom="496dp"
-        android:text="@string/delete_message" />
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

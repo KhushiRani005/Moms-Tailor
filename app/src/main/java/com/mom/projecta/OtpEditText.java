@@ -1,4 +1,4 @@
-package com.tailor.momstailor;
+package com.mom.projecta;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -38,7 +38,7 @@ public class OtpEditText extends AppCompatEditText {
         mLineStroke = multi * mLineStroke;
         mLinesPaint = new Paint(getPaint());
         mLinesPaint.setStrokeWidth(mLineStroke);
-        mLinesPaint.setColor(getResources().getColor(R.color.purple_200));
+        mLinesPaint.setColor(getResources().getColor(R.color.pink));
         setBackgroundResource(0);
         mSpace = multi * mSpace; //convert to pixels for our density
         mLineSpacing = multi * mLineSpacing; //convert to pixels for our density

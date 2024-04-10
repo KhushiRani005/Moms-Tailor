@@ -1,36 +1,46 @@
 {
   "project_info": {
-    "project_number": "851286189242",
-    "project_id": "sneakeet",
-    "storage_bucket": "sneakeet.appspot.com"
+    "project_number": "1076673379354",
+    "firebase_url": "https://blog-f6845-default-rtdb.firebaseio.com",
+    "project_id": "blog-f6845",
+    "storage_bucket": "blog-f6845.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:851286189242:android:5466d7200408142e2f4e83",
+        "mobilesdk_app_id": "1:1076673379354:android:4083d4845c0b727ac3e5a3",
         "android_client_info": {
-          "package_name": "com.tailor.momstailor"
+          "package_name": "com.example.blog"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "851286189242-c8itkvlpiltko1cn7o75lkf2patnp00g.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC3nC2d0xX6W3FJECDQkggXlppgbeZxpjM"
+          "current_key": "AIzaSyC-pNwd2ZoOPLm0B2v8cVlpui15aue1Nyw"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "851286189242-c8itkvlpiltko1cn7o75lkf2patnp00g.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076673379354:android:cca08968f1bc9d43c3e5a3",
+        "android_client_info": {
+          "package_name": "com.mom.projecta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-pNwd2ZoOPLm0B2v8cVlpui15aue1Nyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }
